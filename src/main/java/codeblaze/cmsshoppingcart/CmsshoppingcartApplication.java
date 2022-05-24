@@ -1,0 +1,14 @@
+package codeblaze.cmsshoppingcart;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class CmsshoppingcartApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(CmsshoppingcartApplication.class, args);
+		// stopped at 2:35:00
+	}
+
+}

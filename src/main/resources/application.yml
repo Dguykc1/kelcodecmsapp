@@ -1,0 +1,14 @@
+spring:
+    datasource:
+        url: jdbc:sqlserver://kelcode.database.windows.net:1433;encrypt=true;trustServerCertificate=false;hostNameInCertificate=*.database.windows.net;loginTimeout=30; 
+        username: kelcode
+        password: Kelechi1999!
+    jpa:
+        show-sql: true
+        hibernate:
+            ddl-auto: update
+            dialect: org.hibernate.dialect.SQLServer2021Dialect
+server:
+    port: 8080   
+
+     
